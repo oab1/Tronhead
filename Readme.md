@@ -15,6 +15,15 @@ I've run it with single mgn9 rail (top), dual rail (front/bottom & top/bottom), 
 ![picture](Images/Tronhead_RC3.PNG)
 ![picture](Images/Tronhead_huvud_open.PNG)
 
+HOTEND Fan Duct Flow Path:
+
+PART Fan Duct Flow Path:
+
+Sherpa-Mini modifications:
+- tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
+- filament gears flipped. Pushes whole assembly with motor back another 8mm so overhang is less over x-rail.
+- merged into hotend mount so the interface is rigid and supports sherpa at front end.
+
 BOM:
 - 30mm x 10mm axial fan (x1)
 - 4010 radial (blower) fans (x2)
