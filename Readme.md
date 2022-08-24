@@ -1,7 +1,9 @@
 # Tronhead RC3
-Compact integrated toolhead (for dual mgn9 rails)
+Compact Toolhead design with better cooling!
 
-Compact toolhead with integrated direct drive extruder, CAN board, and dockable magnetic probe weighing in at 285 grams. Forward folding hinge on front cover for easy access. Dragon mount and extruder is a single piece design, making for a very rigid mount between extruder and hotend with fewer screws. Requires 3010 hotend fan and dragon hotend. Uses Huvud PCB, BMG style extruder based on ANNEX sherpa mini, and ANNEX Quickdraw dockable magnetic probe. 
+Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Forward folding hinge on front cover for easy access. hotend/extruder is a single piece design, making for a very rigid interface between extruder and hotend with fewer screws. Requires 3010 hotend fan and dragon hotend. Uses Huvud PCB, BMG style extruder based on ANNEX sherpa mini, and ANNEX Quickdraw dockable magnetic probe. 
+
+I've run it with single mgn9 rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible, and the lease amount of play in the mgn9 rails.
 
 ![picture](Images/Tronhead_RC3.PNG)
 ![picture](Images/Tronhead_huvud_open.PNG)
@@ -9,8 +11,8 @@ Compact toolhead with integrated direct drive extruder, CAN board, and dockable 
 BOM:
 - 30mm x 10mm axial fan (x1)
 - 4010 radial (blower) fans (x2)
-- Triangle Labs Dragon hotend
-- LDO NEMA 14 motor
+- Dragon Style hotend (uses 3 screws)
+- LDO NEMA 14 motor (currently configured for 10t)
 - BMG 3mm hobbed gears and associated shafts and bearings
 - ANNEX Quickdraw Probe
 - Huvud toolhead PCB (optional)
