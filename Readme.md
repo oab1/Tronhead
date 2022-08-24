@@ -1,12 +1,13 @@
 # Tronhead
 A CoreXY Toolhead for Voron printers
 
-Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
+The goal of this project was to create a compact solution to integrate many popular print head features (direct drive extruder, CAN board, and dockable magnetic z-probe) without foregoing the part cooling capabilities of dual 4010 radial fans. Currently, I think this toolhead achieves that while maintaing a very small form factor and low weight (~285 grams for the complete assembly less the mgn9h carts). Some key features:
+
 - Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
 - Integrated Huvud PCB, w/forward folding hinge for easy access. 
-- Hotend/extruder is a single piece design, making for a very rigid interface with fewer screws. 
+- Hotend/extruder mount is a single piece design, making for a very rigid interface with fewer screws. 
 - Straighter, more open flow path for more than sufficient hotend airflow with 30mm axial fan.
-  *Requires 3010 hotend fan and currently built around dragon style hotend. 
+  *Requires 3010 hotend fan and currently built around Dragon hotend. 
 - Uses ANNEX Quickdraw dockable magnetic probe. 
 - Higher flow part cooling ducts (Annex K3 inspired design) 
 
