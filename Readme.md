@@ -39,16 +39,16 @@ Sherpa-Mini modifications:
 
 
 
-# BOM:
+# Basic BOM:
 - 30mm x 10mm axial fan (x1)
-- 4010 radial (blower) fans (x2)
-- Dragon Style hotend (uses 3 screws)
-- LDO NEMA 14 motor (currently configured for 10t)
+- 4010 radial fans (x2)
+- Dragon Style hotend
+- LDO NEMA 14 motor (currently configured for 10t drive gear)
 - BMG 3mm hobbed gears and associated shafts and bearings
 - ANNEX Quickdraw Probe
 - Huvud toolhead PCB (optional)
 - misc m3 screws (m3x30mm is the largest)
-- m3 heatset inserts (5.0mm x 4.0mm)(x7)
+- m3 heatset inserts (5.0mm x 4.0mm)(x6)
 
 ## Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
