@@ -11,7 +11,7 @@ The goal of this project was to create a compact solution integrating many popul
 - Uses ANNEX Quickdraw dockable magnetic probe. 
 - Higher flow part cooling ducts (Annex K3 inspired design) 
 
-I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that guise.
+I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that configuration.
 
 ![picture](Images/Tronhead_RC3.PNG)
 ![picture](Images/Tronhead_huvud_open.PNG)
