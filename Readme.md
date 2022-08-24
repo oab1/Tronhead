@@ -23,9 +23,13 @@ PART Fan Duct Flow Path:
 
 
 Sherpa-Mini modifications:
+![picture](Images/desc_sherpa_mods.PNG)
+
 - tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
 - filament gears flipped. Pushes whole assembly with motor back another 8mm so overhang is less over x-rail.
 - merged into hotend mount so the interface is rigid and supports sherpa at front end.
+
+
 
 BOM:
 - 30mm x 10mm axial fan (x1)
