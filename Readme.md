@@ -1,16 +1,17 @@
-# Tronhead RC3
-CoreXY Toolhead for Voron printers
+# Tronhead
+A CoreXY Toolhead for Voron printers
 
-Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
+The goal of this project was to create a compact solution integrating many popular print head features (direct drive extruder, CAN board, and dockable magnetic z-probe) without foregoing the part cooling capabilities of dual 4010 radial fans. Currently, I think this toolhead achieves that while maintaing a very small form factor and low weight (~285 grams for the complete assembly less the mgn9h carts). Some key features:
+
 - Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
 - Integrated Huvud PCB, w/forward folding hinge for easy access. 
-- Hotend/extruder is a single piece design, making for a very rigid interface with fewer screws. 
-- Straighter, more open flow path for more than sufficient hotend airflow with 30mm axial fan.
-  *Requires 3010 hotend fan and currently built around dragon style hotend. 
+- Hotend/extruder mount is a single piece design, making for a very rigid interface with fewer screws. 
+- Ducted hotend flow path with more open design for good airflow with 30mm axial fan.
+  *Requires 3010 hotend fan and currently built around Dragon hotend. 
 - Uses ANNEX Quickdraw dockable magnetic probe. 
 - Higher flow part cooling ducts (Annex K3 inspired design) 
 
-I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that guise.
+I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that configuration.
 
 ![picture](Images/Tronhead_RC3.PNG)
 ![picture](Images/Tronhead_huvud_open.PNG)
@@ -35,7 +36,7 @@ Sherpa-Mini modifications:
 
 # Things that are specific to my setup!
 - XY joints: Belt sits 2mm closer to extrusion, need to print and install XY joints (in STL's folder) to maintain proper alignment if installing on Voron.
-- My NEMA14 motor has a 10-tooth gear on the output shaft (LDO). 8t and 9t are now also common, but may not have enough adjustment range to mesh properly, I haven't checked.
+- My NEMA14 motor has a 10-tooth drive gear on the output shaft (LDO). 8t and 9t are now also common, but may not have enough adjustment range to mesh properly, I haven't checked.
 
 
 
