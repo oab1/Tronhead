@@ -6,7 +6,7 @@ The goal of this project was to create a compact solution integrating many popul
 - Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
 - Integrated Huvud PCB, w/forward folding hinge for easy access. 
 - Hotend/extruder mount is a single piece design, making for a very rigid interface with fewer screws. 
-- Straighter, more open flow path for more than sufficient hotend airflow with 30mm axial fan.
+- Ducted hotend flow path with more open design for good airflow with 30mm axial fan.
   *Requires 3010 hotend fan and currently built around Dragon hotend. 
 - Uses ANNEX Quickdraw dockable magnetic probe. 
 - Higher flow part cooling ducts (Annex K3 inspired design) 
