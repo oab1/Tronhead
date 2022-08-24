@@ -1,7 +1,12 @@
 # Tronhead RC3
 Compact Toolhead design with better cooling!
 
-Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Forward folding hinge on front cover for easy access. hotend/extruder is a single piece design, making for a very rigid interface between extruder and hotend with fewer screws. Requires 3010 hotend fan and dragon hotend. Uses Huvud PCB, BMG style extruder based on ANNEX sherpa mini, and ANNEX Quickdraw dockable magnetic probe. 
+Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
+- Integration for sherpa mini style extruder (many modifications here to allow it to sit lower and further back)
+- Integration for Huvud PCB, w/forward folding hinge for easy access. 
+- Hotend/extruder is a single piece design, making for a very rigid interface with fewer screws. 
+  *Requires 3010 hotend fan and currently built around dragon style hotend. 
+- Uses ANNEX Quickdraw dockable magnetic probe. 
 
 I've run it with single mgn9 rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible, and the lease amount of play in the mgn9 rails.
 
