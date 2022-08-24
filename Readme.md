@@ -2,7 +2,7 @@
 CoreXY Toolhead for Voron printers
 
 Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
-- Integration for sherpa mini style extruder (many modifications here to allow it to sit lower and further back)
+- Integrated sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
 - Integration for Huvud PCB, w/forward folding hinge for easy access. 
 - Hotend/extruder is a single piece design, making for a very rigid interface with fewer screws. 
 - Straighter, more open flow path for more than sufficient hotend airflow with 30mm axial fan.
