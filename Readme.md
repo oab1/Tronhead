@@ -25,6 +25,7 @@ PART Fan Duct Flow Path:
 
 
 Sherpa-Mini modifications:
+
 ![picture](Images/desc_sherpa_mods.PNG)
 
 - tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
