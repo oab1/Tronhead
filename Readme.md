@@ -16,8 +16,11 @@ I've run it with single mgn9 rail (top), dual rail (front/bottom & top/bottom), 
 ![picture](Images/Tronhead_huvud_open.PNG)
 
 HOTEND Fan Duct Flow Path:
+![picture](Images/xsec_HE_duct.PNG)
 
 PART Fan Duct Flow Path:
+![picture](Images/xsec_part_cooling_duct.PNG)
+
 
 Sherpa-Mini modifications:
 - tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
