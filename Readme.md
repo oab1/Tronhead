@@ -1,9 +1,9 @@
 # Tronhead RC3
-Toolhead design with smaller packaging, low weight, and better cooling
+CoreXY Toolhead for Voron printers
 
 Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
-- Integration for sherpa mini style extruder (many modifications here to allow it to sit lower and further back)
-- Integration for Huvud PCB, w/forward folding hinge for easy access. 
+- Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
+- Integrated Huvud PCB, w/forward folding hinge for easy access. 
 - Hotend/extruder is a single piece design, making for a very rigid interface with fewer screws. 
 - Straighter, more open flow path for more than sufficient hotend airflow with 30mm axial fan.
   *Requires 3010 hotend fan and currently built around dragon style hotend. 
@@ -31,19 +31,24 @@ Sherpa-Mini modifications:
 - tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
 - filament gears flipped. Pushes whole assembly with motor back another 8mm so overhang is less over x-rail.
 - merged into hotend mount so the interface is rigid and supports sherpa at front end.
+ 
+
+# Things that are specific to my setup!
+- XY joints: Belt sits 2mm closer to extrusion, need to print and install XY joints (in STL's folder) to maintain proper alignment if installing on Voron.
+- My NEMA14 motor has a 10-tooth gear on the output shaft (LDO). 8t and 9t are now also common, but may not have enough adjustment range to mesh properly, I haven't checked.
 
 
 
-BOM:
+# Basic BOM:
 - 30mm x 10mm axial fan (x1)
-- 4010 radial (blower) fans (x2)
-- Dragon Style hotend (uses 3 screws)
-- LDO NEMA 14 motor (currently configured for 10t)
+- 4010 radial fans (x2)
+- Dragon Style hotend
+- LDO NEMA 14 motor (currently configured for 10t drive gear)
 - BMG 3mm hobbed gears and associated shafts and bearings
 - ANNEX Quickdraw Probe
 - Huvud toolhead PCB (optional)
 - misc m3 screws (m3x30mm is the largest)
-- m3 heatset inserts (5.0mm x 4.0mm)(x7)
+- m3 heatset inserts (5.0mm x 4.0mm)(x6)
 
 ## Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
