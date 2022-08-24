@@ -1,5 +1,5 @@
 # Tronhead RC3
-Toolhead design with smaller packaging, low weight, and better cooling
+CoreXY Toolhead for Voron printers
 
 Design integrates direct drive extruder, CAN board, and dockable magnetic probe while weighing in at ~285 grams. Some key features:
 - Integration for sherpa mini style extruder (many modifications here to allow it to sit lower and further back)
