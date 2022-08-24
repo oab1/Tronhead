@@ -31,13 +31,15 @@ Sherpa-Mini modifications:
 - tensioner screw flipped and passes through body now to save space and prevents heat-set insert from pulling out.
 - filament gears flipped. Pushes whole assembly with motor back another 8mm so overhang is less over x-rail.
 - merged into hotend mount so the interface is rigid and supports sherpa at front end.
+ 
 
-#Things that are specific to my setup!
+# Things that are specific to my setup!
 - XY joints: Belt sits 2mm closer to extrusion, need to print and install XY joints (in STL's folder) to maintain proper alignment if installing on Voron.
 - My NEMA14 motor has a 10-tooth gear on the output shaft (LDO). 8t and 9t are now also common, but may not have enough adjustment range to mesh properly, I haven't checked.
 
 
-#BOM:
+
+# BOM:
 - 30mm x 10mm axial fan (x1)
 - 4010 radial (blower) fans (x2)
 - Dragon Style hotend (uses 3 screws)
