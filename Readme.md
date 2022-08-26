@@ -52,7 +52,7 @@ Sherpa-Mini modifications:
 I have a lot of time in this design so I would just appreciate that who shares or modifies my files credits them appropriately!
 You can find me on Discord with any other questions, u/moab1#9591
 
-## Credits:
+**Credits**
 
 ## Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
