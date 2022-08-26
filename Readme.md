@@ -53,16 +53,17 @@ I have a lot of time in this design so I would just appreciate that who shares o
 You can find me on Discord with any other questions, u/moab1#9591
 
 **Credits**
-
-## Huvud Toolhead PCB
+This design was possible because of the work of many other designers/projects:
+ 
+### Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
 
-## ANNEX Engineering Quickdraw Probe -
+### ANNEX Engineering Quickdraw Probe -
 Toolhead uses this complete dockable probe solution from ANNEX:
 
 https://github.com/Annex-Engineering/Quickdraw_Probe
 
-## ANNEX Engineering Sherpa Mini Extruder
+### ANNEX Engineering Sherpa Mini Extruder
 Extruder design based on this extruder from ANNEX:
 
 https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
