@@ -3,13 +3,11 @@ A CoreXY Toolhead for Voron printers
 
 The goal of this project was to create a compact solution integrating what I've come to consider essential print head features (direct drive extruder, dockable magnetic z-probe, CAN board) without giving up the part cooling capabilities of dual 4010 radial fans. This toolhead achieves that while maintaing a very small form factor and low weight (~285 grams for the complete assembly less the mgn9h carts). Some key features:
 
-- Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
-- Integrated Huvud PCB, w/forward folding hinge for easy access. 
-- Hotend/extruder mount is a single piece design, making for a very rigid interface with fewer screws. 
+- Integrated ANNEX Sherpa mini extruder (with significant modifications locating it closer to the hotend and x-axis and "fused" with hotend mount)
+- Integrated Huvud PCB, w/forward folding hinge for easy access.
 - Ducted hotend flow path with more open design for good airflow with 30mm axial fan.
-  *Requires 3010 hotend fan and currently built around Dragon hotend. 
-- Uses ANNEX Quickdraw dockable magnetic probe. 
-- Higher flow part cooling ducts (Annex K3 inspired design) 
+- ANNEX Quickdraw dockable magnetic probe. 
+- ANNEX K3 inspired Higher flow part cooling ducts
 
 I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that configuration.
 
