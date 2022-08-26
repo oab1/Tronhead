@@ -38,7 +38,7 @@ Sherpa-Mini modifications:
 
 
 
-# Basic BOM:
+## Basic BOM:
 - 30mm x 10mm axial fan (x1)
 - 4010 radial fans (x2)
 - Dragon Style hotend
@@ -48,6 +48,11 @@ Sherpa-Mini modifications:
 - Huvud toolhead PCB (optional)
 - misc m3 screws (m3x30mm is the largest)
 - m3 heatset inserts (5.0mm x 4.0mm)(x6)
+
+I have a lot of time in this design so I would just appreciate that who shares or modifies my files credits them appropriately!
+You can find me on Discord with any other questions, u/moab1#9591
+
+## Credits:
 
 ## Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
@@ -61,8 +66,3 @@ https://github.com/Annex-Engineering/Quickdraw_Probe
 Extruder design based on this extruder from ANNEX:
 
 https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
-
-
-
-
-You can find me on Discord with any other questions, u/moab1#9591
