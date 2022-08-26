@@ -1,15 +1,13 @@
 # Tronhead
 A CoreXY Toolhead for Voron printers
 
-The goal of this project was to create a compact solution integrating many popular print head features (direct drive extruder, CAN board, and dockable magnetic z-probe) without foregoing the part cooling capabilities of dual 4010 radial fans. Currently, I think this toolhead achieves that while maintaing a very small form factor and low weight (~285 grams for the complete assembly less the mgn9h carts). Some key features:
+The goal of this project was to create a compact solution integrating what I've come to consider essential print head features (direct drive extruder, dockable magnetic z-probe, CAN board) without giving up the part cooling capabilities of dual 4010 radial fans. This toolhead achieves that while maintaing a very small form factor and low weight (~285 grams for the complete assembly less the mgn9h carts). Some key features:
 
-- Integrated Sherpa mini extruder (modified to sit lower and further back on a 30mm fan hotend)
-- Integrated Huvud PCB, w/forward folding hinge for easy access. 
-- Hotend/extruder mount is a single piece design, making for a very rigid interface with fewer screws. 
+- Integrated ANNEX Sherpa mini extruder (with significant modifications locating it closer to the hotend and x-axis and "fused" with hotend mount)
+- Integrated Huvud PCB, w/forward folding hinge for easy access.
 - Ducted hotend flow path with more open design for good airflow with 30mm axial fan.
-  *Requires 3010 hotend fan and currently built around Dragon hotend. 
-- Uses ANNEX Quickdraw dockable magnetic probe. 
-- Higher flow part cooling ducts (Annex K3 inspired design) 
+- ANNEX Quickdraw dockable magnetic probe. 
+- ANNEX K3 inspired Higher flow part cooling ducts
 
 I've run it with single mgn9h rail (top), dual rail (front/bottom & top/bottom), and have settled on top/bottom dual mgn9h setup as that allowed tucking hotend as close to the x-rail as possible with the least amount of play in the mgn9h carts. I wanted to run with just a single mgn9h top rail configuration, but there was some play evident in that configuration.
 
@@ -40,7 +38,7 @@ Sherpa-Mini modifications:
 
 
 
-# Basic BOM:
+## Basic BOM:
 - 30mm x 10mm axial fan (x1)
 - 4010 radial fans (x2)
 - Dragon Style hotend
@@ -51,20 +49,22 @@ Sherpa-Mini modifications:
 - misc m3 screws (m3x30mm is the largest)
 - m3 heatset inserts (5.0mm x 4.0mm)(x6)
 
-## Huvud Toolhead PCB
+I have a lot of time in this design so I would just appreciate that who shares or modifies my files credits them appropriately!
+You can find me on Discord with any other questions, u/moab1#9591
+
+## Credits
+
+This design was possible because of the work and contributinons of many:
+ 
+### Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
 
-## ANNEX Engineering Quickdraw Probe -
+### ANNEX Engineering Quickdraw Probe -
 Toolhead uses this complete dockable probe solution from ANNEX:
 
 https://github.com/Annex-Engineering/Quickdraw_Probe
 
-## ANNEX Engineering Sherpa Mini Extruder
+### ANNEX Engineering Sherpa Mini Extruder
 Extruder design based on this extruder from ANNEX:
 
 https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
-
-
-
-
-You can find me on Discord with any other questions, u/moab1#9591
