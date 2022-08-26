@@ -54,7 +54,7 @@ You can find me on Discord with any other questions, u/moab1#9591
 
 ## Credits
 
-This design was possible because of the work of many other designers/projects:
+This design was possible because of the work and contributinons of many:
  
 ### Huvud Toolhead PCB
 https://github.com/bondus/KlipperToolboard
